@@ -62,11 +62,12 @@ a {
 #home_arr {
   width: 100vw;
   height: 100vh;
+  border: 1px solid black;
 }
 
 .home_container {
   position: absolute;
-  top: 48%;
+  top: 45%;
   width: 100vw;
   height: 100%;
   display: flex;
@@ -76,15 +77,15 @@ a {
 
 
 .home_title_container {
-  font-size: 5.3rem;
-  font-weight: 600;
   font-family: 'Montserrat';
-  letter-spacing: -0.1rem;
+  letter-spacing: -0.3rem;
   opacity: 1;
 }
 
 .home_main_title {
   opacity: 1;
+  font-size: 6.5rem;
+  font-weight: 600;
 }
 
 .ghost {
@@ -98,10 +99,8 @@ a {
 }
 
 .ghost>img {
-  opacity: 0.2;
+  opacity: 0.3;
   transform: translateX(-20vw);
   overflow: hidden;
-  object-fit: fill;
-
 
 }
