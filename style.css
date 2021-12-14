@@ -62,7 +62,7 @@ a {
 #home_arr {
   width: 100vw;
   height: 100vh;
-  border: 1px solid black;
+
 }
 
 .home_container {
@@ -78,28 +78,28 @@ a {
 
 .home_title_container {
   font-family: 'Montserrat';
-  letter-spacing: -0.3rem;
+
   opacity: 1;
 }
 
 .home_main_title {
   opacity: 1;
-  font-size: 6.5rem;
+  font-size: 5rem;
   font-weight: 600;
 }
 
 .ghost {
   width: 100vw;
   /* border: 1px solid black; */
-  height: 77%;
+  /* height: 200%; */
   overflow: hidden;
   position: absolute;
-  top: 23%;
+  top: 20%;
   z-index: -1;
 }
 
 .ghost>img {
-  opacity: 0.3;
+  opacity: 0.2;
   transform: translateX(-20vw);
   overflow: hidden;
 
