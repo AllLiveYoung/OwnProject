@@ -22,7 +22,6 @@ a {
   position: fixed;
   top: 10px;
   background-color: transparent;
-  /* background-color: whitesmoke; */
   z-index: 1;
 }
 
@@ -48,7 +47,7 @@ a {
 }
 
 .table>a {
-  margin-left: 70px;
+  margin-left: 50px;
   font-size: 1.1rem;
   font-weight: 600;
   font-style: none;
@@ -78,20 +77,18 @@ a {
 
 .home_title_container {
   font-family: 'Montserrat';
-
   opacity: 1;
 }
 
 .home_main_title {
   opacity: 1;
-  font-size: 5rem;
-  font-weight: 600;
+  font-size: 5.6rem;
+  font-weight: 700;
+  letter-spacing: -0.2rem;
 }
 
 .ghost {
   width: 100vw;
-  /* border: 1px solid black; */
-  /* height: 200%; */
   overflow: hidden;
   position: absolute;
   top: 20%;
